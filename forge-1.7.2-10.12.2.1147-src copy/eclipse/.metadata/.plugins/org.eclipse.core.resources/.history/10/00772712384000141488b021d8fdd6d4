@@ -1,0 +1,7 @@
+package RGM;
+
+@Mod(modid = "RGM", name = "", version = "")
+
+public class mainRegistry {
+
+}
