@@ -15,10 +15,9 @@ public class ItemManager{
     public static Item grenade;
  
     public static void initializeItem() {
-        grenade = new ItemGrenade().setUnlocalizedName("Grenade").setCreativeTab(CreativeTabs.tabCombat).setTextureName("cm:grenade");    }
  
     public static void registerItem(){
-        GameRegistry.registerItem(grenade, grenade.getUnlocalizedName());
+
     }
  
 }
